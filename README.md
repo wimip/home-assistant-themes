@@ -1,2 +1,4 @@
 # home-assistant-themes
-My themes
+Themes !
+manthoR - www.just4fun.mobi
+
