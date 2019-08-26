@@ -91,3 +91,5 @@ discord:
   light-disabled-opacity: "0.3"
   light-secondary-opacity: "0.7"
   light-primary-opacity: "1.0"
+  
+  mdc-theme-primary: "#43B581"
