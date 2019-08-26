@@ -9,7 +9,7 @@ discord:
 
   state-icon-color: "#44739e"
   state-icon-active-color: "#FDD835"
-  state-icon-unavailable-color: var(--disabled-text-color)
+  state-icon-unavailable-color: "var(--disabled-text-color)"
 
   primary-text-color: "#d0d0d0"
   text-primary-color: "#9eb3fd"
@@ -21,15 +21,15 @@ discord:
   sidebar-icon-color: "#5b6eae"
   sidebar-background-color: "#202225"
   sidebar-text-color: "#696d68"
-  sidebar-selected-text-color: var(--accent-color)
+  sidebar-selected-text-color: "var(--accent-color)"
   sidebar-selected-icon-color: "#ffffff"
   
   label-badge-border-color: "green"
   primary-background-color: "#40444B"
   secondary-background-color: "#202225"
-
-  label-badge-background-color: "white"
-  label-badge-text-color: "rgb(76, 76, 76)"
+  
+  label-badge-text-color: "var(--primary-text-color)"
+  label-badge-background-color: "#2E333A"
   label-badge-red: "#DF4C1E"
   label-badge-blue: "#039be5"
   label-badge-green: "#0DA035"
@@ -46,6 +46,7 @@ discord:
   more-info-header-color: "#7289da"
   more-info-header-background: "#36393F"
   paper-dialog-background-color: "#202225"
+  paper-dialog-color: "#43B581"
 
   #derived colors, to keep existing themes mostly working
   paper-card-header-color: "var(--accent-color)"
@@ -57,10 +58,6 @@ discord:
   paper-listbox-color: "#ffffff"
   paper-listbox-background-color: "#202225"
   paper-tabs-selection-bar-color: "#ffffff"
-
-  label-badge-red: "var(--accent-color)"
-  label-badge-text-color: "var(--primary-text-color)"
-  label-badge-background-color: "#2E333A"
 
   paper-toggle-button-checked-button-color: "var(--accent-color)"
   paper-toggle-button-checked-bar-color: "var(--accent-color)"
@@ -85,11 +82,11 @@ discord:
   google-yellow-500: "#f4b400"
   paper-spinner-color: "var(--primary-color)"
 
-
   # opacity for light text on a dark background
   light-divider-opacity: "0.12"
   light-disabled-opacity: "0.3"
   light-secondary-opacity: "0.7"
   light-primary-opacity: "1.0"
-  
+
   mdc-theme-primary: "#43B581"
+  
