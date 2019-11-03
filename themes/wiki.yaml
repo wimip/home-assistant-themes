@@ -1,3 +1,8 @@
+# A Discord theme by @Wimip
+#
+# https://github.com/wimip/home-assistant-themes
+#
+
 wiki:
   primary-color: "#000000"
   accent-color: "#66e62bdb"
@@ -49,3 +54,4 @@ wiki:
   google-green-500: "#39E949"
 
   off-color: "#3c331d"
+  data-table-background-color: "var(--secondary-background-color)"
