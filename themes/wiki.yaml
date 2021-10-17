@@ -19,8 +19,9 @@ wiki:
   divider-color: "rgba(166, 169, 163, 0.35)"
   table-row-background-color: "#80808094"
   table-row-alternative-background-color: "#b7b9b3ad"
-  sidebar-icon-color: "rgba(255, 255, 255, 0.41)"
+  sidebar-icon-color: "#7B7F77"
   sidebar-background-color: "#a6a9a3"
+  state-icon-color: "#a6a9a3"
   paper-listbox-color: "var(--primary-color)"
   paper-listbox-background-color: "#b7b9b3"
   paper-grey-50: "var(--primary-text-color)"
@@ -55,3 +56,26 @@ wiki:
 
   off-color: "#3c331d"
   data-table-background-color: "var(--secondary-background-color)"
+
+
+
+  # Cards colors
+  ha-card-background: "#7B7F77"
+
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  card-background-color: var(--primary-background-color)
+
+  # Shadown
+  ha-card-box-shadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  hacs-chip-color: var(--primary-color)
+
+##########################################

@@ -5,33 +5,33 @@
 #
 discord:
 
-  primary-color: "#5e74ba"
+  primary-color: "#191B1D"
   #"#202225"
-  accent-color: "#7289DA"
+  accent-color: "#3BA55D"
   dark-primary-color: "#888f9c"
-  light-primary-color: "#FF73FA"
+  light-primary-color: "#DCDDDE"
   divider-color: "rgba(166, 169, 163, 0)"
-  scrollbar-thumb-color: "rgb(194, 194, 194)"
+  scrollbar-thumb-color: "#5865F2"
 
   state-icon-color: "#44739e"
   state-icon-active-color: "#FDD835"
   state-icon-unavailable-color: "var(--disabled-text-color)"
 
   primary-text-color: "#d0d0d0"
-  text-primary-color: "#9eb3fd"
+  text-primary-color: "#53AF71"
   secondary-text-color: "#7683ad"
   disabled-text-color: "#696d68"
 
   # sidebar and header
   cch-all-tabs-color: "#ffffff"
-  sidebar-icon-color: "#5b6eae"
+  sidebar-icon-color: "#72767D"
   sidebar-background-color: "#202225"
   sidebar-text-color: "#696d68"
-  sidebar-selected-text-color: "var(--accent-color)"
-  sidebar-selected-icon-color: "#ffffff"
+  sidebar-selected-text-color: "#ffffff"
+  sidebar-selected-icon-color: "#5865F2"
   
   label-badge-border-color: "green"
-  primary-background-color: "#40444B"
+  primary-background-color: "#2F3136"
   secondary-background-color: "#202225"
   
   label-badge-text-color: "var(--primary-text-color)"
@@ -49,7 +49,7 @@ discord:
   #popup
   iron-overlay-backdrop-background-color: "#000000"
   iron-overlay-backdrop-opacity: "0.8"
-  more-info-header-color: "#7289da"
+  more-info-header-color: "#3BA55D"
   more-info-header-background: "#36393F"
   paper-dialog-background-color: "#202225"
   paper-dialog-color: "#43B581"
@@ -96,3 +96,38 @@ discord:
 
   mdc-theme-primary: "#ffffff"
   data-table-background-color: "var(--secondary-background-color)"
+
+
+
+  # NEW VALUES
+  ha-card-border-radius: 6px
+
+  graph-color: var(--primary-color)
+ 
+  disabled-color: "#393939"
+ 
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+
+
+  # Cards colors
+  ha-card-background: "#36393F"
+
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  card-background-color: var(--primary-background-color)
+
+  # Shadown
+  ha-card-box-shadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  hacs-chip-color: var(--primary-color)
+
+##########################################
