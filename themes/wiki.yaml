@@ -74,6 +74,7 @@ wiki:
   ha-card-box-shadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
   # HACS
   hacs-badge-color: var(--primary-color)
+  hacs-new-color: var(--primary-color)
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   hacs-chip-color: var(--primary-color)

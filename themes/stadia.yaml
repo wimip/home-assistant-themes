@@ -3,40 +3,49 @@
 #
 # https://github.com/wimip/home-assistant-themes
 #
-discord:
-
-  primary-color: "#72767D"
-  #"#191B1D"
-  #"#202225"
-  accent-color: "#3BA55D"
-  dark-primary-color: "#888f9c"
-  light-primary-color: "#DCDDDE"
-  divider-color: "rgba(166, 169, 163, 0)"
-  scrollbar-thumb-color: "#5865F2"
-  app-header-background-color: "#191B1D"
+stadia:
+  primary-color: "#FF773D"
+  accent-color: "#FF773D"
+  dark-primary-color: "#131416"
+  light-primary-color: "#E8EAED"
+  divider-color: "rgba(0, 0, 0, 0)"
+  scrollbar-thumb-color: "#2D2E31"
+  primary-background-color: "#202124"
+  secondary-background-color: "#2D2E31"
+  app-header-background-color: "var(--primary-background-color)"
   app-header-text-color: "var(--accent-color)"
 
-  state-icon-color: "#44739e"
-  state-icon-active-color: "#FDD835"
+  ha-card-border-radius: 10px
+  ha-card-background: "#2A2B2E"
+  ha-card-box-shadow: "0px 0px 15px 5px rgba(0, 0, 0, 0.1)"
+  graph-color: var(--primary-color)
+  disabled-color: "#393939"
+
+  state-icon-color: "#E8EAED"
+  state-icon-active-color: "#FF773D"
   state-icon-unavailable-color: "var(--disabled-text-color)"
 
-  primary-text-color: "#d0d0d0"
-  text-primary-color: "#53AF71"
-  secondary-text-color: "#7683ad"
-  disabled-text-color: "#696d68"
+  primary-text-color: "#E7E7E7"
+  text-primary-color: "#FF773D"
+  secondary-text-color: "#9AA0A6"
+  disabled-text-color: "#9AA0A6"
+
+
+  #Call to action
+  mdc-theme-primary: "#444447"
+  mdc-theme-on-primary: "#FFFFFF"
+  mdc-theme-on-secondary: "#FFFFFF"
 
   # sidebar and header
-  cch-all-tabs-color: "#ffffff"
+  cch-all-tabs-color: "var(--primary-background-color)"
   sidebar-icon-color: "#72767D"
-  sidebar-background-color: "#202225"
-  sidebar-text-color: "#696d68"
-  sidebar-selected-text-color: "#ffffff"
-  sidebar-selected-icon-color: "#5865F2"
-  
+  sidebar-background-color: "var(--primary-background-color)"
+  sidebar-text-color: "#9AA0A6"
+  sidebar-selected-text-color: "var(--accent-color)"
+  sidebar-selected-icon-color: "#ffffff"
+
   label-badge-border-color: "green"
-  primary-background-color: "#2F3136"
-  secondary-background-color: "#202225"
-  
+
   label-badge-text-color: "var(--primary-text-color)"
   label-badge-background-color: "#2E333A"
   label-badge-red: "#DF4C1E"
@@ -74,7 +83,7 @@ discord:
   paper-toggle-button-unchecked-button-color: "var(--disabled-text-color)"
   paper-toggle-button-unchecked-bar-color: "var(--disabled-text-color)"
   paper-toggle-button-unchecked-ink-color: "var(--disabled-text-color)"
-  
+
   paper-slider-knob-color: "var(--accent-color)"
   paper-slider-knob-start-color: "var(--accent-color)"
   paper-slider-pin-color: "var(--accent-color)"
@@ -83,7 +92,7 @@ discord:
   paper-slider-secondary-color: "var(--secondary-background-color)"
   paper-slider-disabled-active-color: "var(--disabled-text-color)"
   paper-slider-disabled-secondary-color: "var(--disabled-text-color)"
-  
+
   # for paper-spinner
   google-red-500: "#ED4245"
   google-blue-500: "#0EAFF4"
@@ -97,41 +106,29 @@ discord:
   light-secondary-opacity: "0.7"
   light-primary-opacity: "1.0"
 
-  mdc-theme-primary: "#ffffff"
   data-table-background-color: "var(--secondary-background-color)"
 
 
-
-  # NEW VALUES
-  ha-card-border-radius: 5px
-
-  graph-color: var(--primary-color)
- 
-  disabled-color: "#393939"
- 
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
 
-
-  # Cards colors
-  ha-card-background: "#36393F"
 
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
   switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
   switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+
+  
   # Table colors
   card-background-color: var(--primary-background-color)
 
-  # Shadown
-  ha-card-box-shadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
+
   # HACS
   hacs-badge-color: var(--primary-color)
-  hacs-new-color: var(--primary-color)
+  hacs-new-color: "var(--primary-background-color)"
+  hacs-chip-color: var(--primary-color)
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
-  hacs-chip-color: var(--primary-color)
-
 ##########################################

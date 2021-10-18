@@ -3,8 +3,12 @@ By manthoR - www.just4fun.mobi
 
 #### Tribute to Discord
 themes\discord.yaml
-![Discord](http://just4fun.mobi/wp-content/uploads/2019/08/desktop.png "Discord")
+![Discord](https://just4fun.mobi/wp-content/uploads/2021/10/image-2-1024x523.png "Discord")
+
+#### Wiki kiwi
+themes\stadia.yaml
+![Stadia](https://just4fun.mobi/wp-content/uploads/2021/10/image-1-1024x521.png "Stadia")
 
 #### Wiki kiwi
 themes\wiki.yaml
-![Wiki](http://just4fun.mobi/wp-content/uploads/2019/08/theme_wiki.png "Wiki")
+![Wiki](https://just4fun.mobi/wp-content/uploads/2021/10/image-3-1024x519.png "Wiki")
