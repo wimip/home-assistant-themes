@@ -5,7 +5,7 @@ By manthoR - www.just4fun.mobi
 themes\discord.yaml
 ![Discord](https://just4fun.mobi/wp-content/uploads/2021/10/image-2-1024x523.png "Discord")
 
-#### Wiki kiwi
+#### Stadia Stan
 themes\stadia.yaml
 ![Stadia](https://just4fun.mobi/wp-content/uploads/2021/10/image-1-1024x521.png "Stadia")
 
